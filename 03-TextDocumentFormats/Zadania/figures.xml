@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geometricFigures>
+    <figure>
+        <name>Circle</name>
+        <type>2D</type>
+        <properties>
+            <property>Radius</property>
+            <property>Diameter</property>
+        </properties>
+        <formulas>
+            <area>π * radius^2</area>
+            <perimeter>2 * π * radius</perimeter>
+        </formulas>
+    </figure>
+    <figure>
+        <name>Square</name>
+        <type>2D</type>
+        <properties>
+            <property>Side Length</property>
+        </properties>
+        <formulas>
+            <area>side^2</area>
+            <perimeter>4 * side</perimeter>
+        </formulas>
+    </figure>
+    <figure>
+        <name>Triangle</name>
+        <type>2D</type>
+        <properties>
+            <property>Base Length</property>
+            <property>Side1 Length</property>
+            <property>Side2 Length</property>
+            <property>Height Length</property>
+        </properties>
+        <formulas>
+            <area>Base Length * Height Length / 2</area>
+            <perimeter>Base Length + Side1 Length + Side2 Length</perimeter>
+        </formulas>
+    </figure>
+    <figure>
+        <name>Cube</name>
+        <type>3D</type>
+        <properties>
+            <property>Border Length</property>
+        </properties>
+        <formulas>
+            <area>Border^3</area>
+            <perimeter>6*(border^2)</perimeter>
+        </formulas>
+    </figure>
+</geometricFigures>

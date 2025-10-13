@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transport>
+    <vehicle type="car" fuel="petrol">
+        <brand>Toyota</brand>
+        <model>Corolla</model>
+        <year>2018</year>
+        <color>Blue</color>
+    </vehicle>
+    <vehicle type="bicycle" gear="21">
+        <brand>Giant</brand>
+        <model>Escape 3</model>
+        <year>2021</year>
+        <color>Black</color>
+    </vehicle>
+    <vehicle type="bus" route="15A">
+        <company>City Transport</company>
+        <capacity>50</capacity>
+        <year>2015</year>
+        <color>Red</color>
+    </vehicle>
+</transport>

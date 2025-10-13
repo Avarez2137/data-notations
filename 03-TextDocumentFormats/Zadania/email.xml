@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+    <email>
+        <sender>sender@mail.com</sender>
+        <recipient>recipient@mail.com</recipient>
+        <subject>Test mail</subject>
+        <message>I just wanted to test whether sending mails works</message>
+    </email>
+</emails>
