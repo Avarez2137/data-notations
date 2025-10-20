@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Survey</title>
+</head>
+
+<body>
+    <h1>AI Usage Survey</h1>
+    <form action="#" method="get">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="0" max="120"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="gender_male" name="gender" value="male">
+        <label for="gender_male">Male</label><br>
+        <input type="radio" id="gender_female" name="gender" value="female">
+        <label for="gender_female">Female</label><br>
+        <input type="radio" id="gender_other" name="gender" value="other">
+        <label for="gender_other">Other</label><br><br>
+
+        <label for="chatgpt_usage">How often do you use ChatGPT:</label><br>
+        <select id="chatgpt_usage" name="chatgpt_usage">
+            <option value="never">never</option>
+            <option value="rarely">rarely</option>
+            <option value="occasionally">occasionally</option>
+            <option value="often">often</option>
+            <option value="constantly">constantly</option>
+        </select><br><br>
+
+        <label for="benefits">Describe shortly your benefits from using AI:</label><br>
+        <textarea id="benefits" name="benefits" rows="5" cols="60"
+            placeholder="e.g., saves time, improves research, helps learning..."></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
