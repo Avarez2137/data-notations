@@ -1,0 +1,21 @@
+{
+    "bookingReference": "R8T45K",
+    "trainNumber": "EC 173",
+    "passenger": "Anna Schmidt",
+    "departure": {
+        "station": "Hamburg Hbf",
+        "dateTime": "2024-10-28T08:51:00",
+        "platform": "7"
+    },
+    "arrival": {
+        "station": "Praha hl.n.",
+        "dateTime": "2024-10-28T15:24:00"
+    },
+    "seatInfo": {
+        "coach": 256,
+        "seat": "45A",
+        "class": "2nd Class"
+    },
+    "price": 64.90,
+    "isFlexibleFare": false
+}
